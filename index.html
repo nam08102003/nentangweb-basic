@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/index.css" />
+    <title>Thực hành buổi 1</title>
+</head>
+<body>
+
+    <!-- Bài 1 -->
+    <div class="bai1" align="center">
+        <i class="fa-regular fa-envelope"></i>
+        <h2>Get the invite</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing. Aliquam viverra orci ut.</p>
+        <form>
+            <input type="text" name="email" placeholder="Enter Email" class="email"/>
+            <br/>
+            <input type="submit" name="btn-request" value="Request invite" class="button"/>
+        </form>
+    </div>
+
+    <br/>
+    <hr/>
+    <br/>
+
+    <!-- Bài 2 -->
+    <div class="bai2">
+        <img src="assets/images/16503.jpg" alt="image" align="left" width="190px"/>
+        <p align="right">
+            <h2 style="text-transform: uppercase;">Vestibulum ullamcorper ut leo quis</h2>
+            <p>
+                Aenean facilisis lectus ante, ut rutrum eros convallis et.
+                Vestibulum ullamcorper ut leo quis tristique. Donec in erat commodo, pharetra purus ac consectetur lacus. Suspendisse odio sapien, egestas at ex sit amet, molestie sagittis est.
+                <br/>
+                <br/>
+                In id purus imperdiet nisl accumsan scelerisque. Donec nec justo sed enim dapibus rhoncus. Morbi sed elit vitae metus ullamcorper efficitur.
+                <br/>
+                <br/>
+                Fusce aliquam magna id ipsum ultricies interdum. Maecenas nibh risus,
+            </p>
+                <br/>
+            <button type="button">DETAIL</button>
+        </p>
+    </div>
+
+    <br/>
+    <hr/>
+    <br/>
+
+    <!-- Bài 3 -->
+    <div class="bai3" align="center">
+        <h3>Get in touch with us by filling contact form below</h3>
+        <form >
+           <table style="width:50%">
+            <tr>
+                <td>
+                    <input type="text" name="fullname" placeholder="Enter your full name" width="200"/>
+                </td>
+                <td>
+                    <input type="email" name="email" placeholder="Enter your email address" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="subject" placeholder="Enter your subject" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea placeholder="Your message here..."></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit" align="left">Send message</button>
+                </td>
+                <td>
+                    <p align="right">Please fill all required form field, thanks!</p>
+                </td>
+            </tr>
+           </table>
+        </form>
+    </div>
+
+    <br/>
+    <hr/>
+    <br/>
+
+    <!-- Bài 5 -->
+    <div class="bai5">
+        <div class="animation-img">
+        </div>
+    </div>
+
+    <br/>
+    <hr/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+    <div class="form-input">
+        <center><b><font size="56" >Create User's Account</font></b></center>
+        <form method="POST">
+            <label>Họ tên: <input type='text' name="fullname" /></label>
+            <br />
+            <label>
+                Giới tính: 
+                <label for=""><input type='radio' name='gender' value="Nam" />Nam</label>
+                <label for=""><input type='radio' name='gender' value="Nữ" />Nữ</label>
+            </label>
+            <br/>
+            <label>
+                Ngày sinh:
+                <input type="text" name="day"/>
+                <input type="text" name="month"/>
+                <input type="text" name="year"/>
+            </label>
+            <br/>
+            <label>
+                Trình độ chuyên môn:
+                <select name="skill">
+                    <option value="Trung cấp">Trung cấp</option>
+                    <option value="Cao cấp">Cao cấp</option>
+                    <option value="Sơ cấp">Sơ cấp</option>
+                </select>
+            </label>
+            <br />
+            <label>
+                Ngoại ngữ:
+                <label><input name="language" type="checkbox" value="Anh"/>Anh</label>
+                <label><input name="language" type="checkbox" value="Pháp"/>Pháp</label>
+                <label><input name="language" type="checkbox" value="Đức"/>Đức</label>
+                <label><input name="language" type="checkbox" value="Trung"/>Trung</label>
+                <label><input name="language" type="checkbox" value="Khác"/>Khác</label>
+            </label>
+            <br />
+            <label>
+                Email:
+                <input type="email" name="email"/>
+            </label>
+            <br />
+            <label>
+                Username:
+                <input type="text" name="username"/>
+            </label>
+            <br />
+            <label>
+                Password:
+                <input type="password" name="password"/>
+            </label>
+            <br />
+            <label>
+                Nhập lại password:
+                <input type="password" name="rePassword"/>
+            </label>
+            <br />
+            <label>
+                Ghi chú:
+                <br />
+                <textarea rows="7" cols="80" name="note"></textarea>
+            </label>
+            <br/>
+            <input type="submit"/>
+            <input type="reset"/>
+        </form>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+    </div>
+
+    <!-- <script>
+        const FormInput = document.querySelector('.form-input form')
+        // console.log(FormInput.submit())
+        FormInput.addEventListener('submit', function(e) {
+            console.log(e.target)
+        })
+    </script> -->
+
+</body>
+</html>

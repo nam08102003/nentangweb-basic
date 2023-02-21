@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.bai1 {
+    background-color: #e8e8e8;
+    padding: 20px 0;
+}
+
+.bai1 i {
+    color: #20e9d6;
+    font-size: 1.2rem;
+    padding: 8px;
+    border: 2px solid #20e9d6;
+    border-radius: 50%;
+}
+
+.bai1 h2 {
+    padding: 20px 0;
+    font-size: 2rem;
+}
+
+.bai1 p {
+    font-size: 0.9rem;
+    padding-bottom: 20px;
+}
+
+.bai1 input {
+    outline: none;
+    border: none;
+}
+
+.bai1 .email {
+    width: 300px;
+    height: 46px;
+    background-color: #fff;
+    padding: 10px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 3px;
+}
+
+.bai1 .button {
+    margin-top: 17px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    padding: 14px 15px;
+    background-color: #20e9d6;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+
+
+.bai3 input {
+    width: 100%;
+}
+
+.bai5 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.bai5 .animation-img{
+    background-image: url('./images/img1.png');
+    width: auto;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: changeImg 15s ;
+}
+
+@keyframes changeImg {
+    0% {
+        /* background-image: url('./images/img1.png'); */
+    }
+    33% {
+        background-image: url('./images/img2.png');
+    }
+    66% {
+        background-image: url('./images/img3.png');
+        }
+    100% {
+        background-image: url('./images/img4.png');
+    }
+}
